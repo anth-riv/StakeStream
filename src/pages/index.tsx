@@ -1,11 +1,10 @@
 import Layout from '../components/Layout';
+import LandingSection from '../components/LandingSection';
 
 export default function Home() {
   return (
     <Layout>
-      <div className="flex min-h-screen items-center justify-center">
-        <h1>Hello World</h1>
-      </div>
+      <LandingSection />
     </Layout>
   );
 }
