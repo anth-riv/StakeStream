@@ -26,19 +26,18 @@ body {
   transition: all 0.25s ease-out;
 }
 
-
 .card {
-  background-color: #1E293B; /* Bleu foncé */
-  color: #F1F5F9; /* Blanc cassé */
+  background-color: #1E293B; 
+  color: #F1F5F9; 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .card h3 {
-  color: #60A5FA; /* Bleu clair */
+  color: #60A5FA; 
 }
 
 .card:hover {
-  background-color: #334155; /* Gris foncé */
+  background-color: #334155; 
 }
