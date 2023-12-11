@@ -1,8 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import WalletConnect from './WalletConnect';
 
 const Header = () => {
-  return (
+
+    return (
     <header className="bg-dark shadow-lg">
       <nav className="container mx-auto flex items-center justify-between py-4 px-6 md:px-12">
         <div className="flex items-center">
@@ -16,6 +18,7 @@ const Header = () => {
           </Link>
         </div>
         <div className="hidden md:flex items-center space-x-6">
+          <WalletConnect /> 
           <Link href="/staking" passHref><span className="text-light hover:text-primary transition-colors cursor-pointer">Staking</span></Link>
           <Link href="/portfolio" passHref><span className="text-light hover:text-primary transition-colors cursor-pointer">Portfolio</span></Link>
           <Link href="/dashboard" passHref><span className="text-light hover:text-primary transition-colors cursor-pointer">Dashboard</span></Link>
@@ -26,7 +29,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
-  
-
